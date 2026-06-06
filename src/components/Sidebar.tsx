@@ -22,7 +22,7 @@ export default function Sidebar({ activeTab, setActiveTab }: SidebarProps) {
   ];
 
   return (
-    <aside className="w-20 md:w-24 shrink-0 flex flex-col items-center justify-between py-6 h-full text-foreground select-none border-r border-border/50" id="sidebar-container">
+    <aside className="hidden md:flex w-20 md:w-24 shrink-0 flex-col items-center justify-between py-6 h-full text-foreground select-none border-r border-border/50" id="sidebar-container">
       <motion.div
         className="w-14 h-14 bg-card rounded-full flex items-center justify-center border border-border shadow-lg cursor-pointer relative group overflow-hidden mb-8"
         whileHover={{ scale: 1.08 }}
