@@ -15,7 +15,7 @@ export default function ActivityTile({ activities, totalComputeHours, efficiency
   const maxValue = activities.length > 0 ? Math.max(...activities.map(d => d.hours)) : 1;
 
   return (
-    <div className="flex flex-col h-full justify-between min-h-[320px]">
+    <div className="flex flex-col h-full justify-between min-h-[620px]">
       <div>
         <h3 className="text-base font-semibold text-white tracking-tight">
           System Dynamics
